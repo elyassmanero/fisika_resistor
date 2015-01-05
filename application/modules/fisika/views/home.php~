@@ -56,7 +56,7 @@
 	<?php 
 		if(isset($hasil)){echo $hasil.' Ohm <sub>+-</sub><sup>'.$g4.'%</sup>';}else {echo 0; $hasil=0;}
 		$h=str_replace(',','',$hasil);
-		if($h >= 1000)echo ' <sup><==></sup> '.$h/1000 .' K<sup>Ohm</sup>';
+		if($h >= 1000)echo ' <sub><==></sub> '.$h/1000 .' K<sup>Ohm</sup>';
 	?>
   </td>
  </tr>

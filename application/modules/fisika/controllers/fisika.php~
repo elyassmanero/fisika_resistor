@@ -16,7 +16,6 @@ class Fisika extends CI_Controller{
 			 if(count($g4) == 0){
 				$g4=0;			 
 			 }else{$g4=$g4->toleransi;}
-			 
 				$data['hasil']=number_format((($g1.($g2*10))*(pow(10,$g3))));
 				
 			$data['c1']=$this->m->get_color_bg($this->input->post('g1'))->color_bg;
